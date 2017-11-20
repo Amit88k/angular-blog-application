@@ -1,0 +1,63 @@
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="aName" type="text" class="validate" name="authorName" [(ngModel)]="authorName">
+        <label for="aName">Author Name</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="bId" type="text" class="validate" name="blogId" [(ngModel)]="id">
+        <label for="bId">Blod Id</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s1">
+        <button class="btn waves-effect waves-light" type="submit" (click)="editBlog(authorName, id)" name="action">Validate
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+<div class="row" *ngIf="match">
+  <form class="col s12">
+    <div class="row">
+
+      <div class="input-field col s6">
+        <input id="bTitle" type="text" class="validate" name="blogTItle" [(ngModel)]="blogTitle">
+        <label for="bTitle">Blog Title</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="bContent" type="text" class="validate" name="blogContent" [(ngModel)]="blogContent">
+        <label for="bContent">Blog Content</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="bCategory" type="text" class="validate" name="blogCategory"[(ngModel)]="blogCategory">
+        <label for="bTitle">Blog Category</label>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="input-field col s1">
+        <button class="btn waves-effect waves-light" type="submit" (click)="updateBlog(blogTitle, blogContent, blogCategory)" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

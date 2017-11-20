@@ -1,0 +1,76 @@
+{
+  "Blogs": [
+    {
+      "blogTitle": "its third blog ",
+      "blogContent": "its third blog ",
+      "authorName": "teesra amit",
+      "blogRating": 9,
+      "blogCategory": "sports",
+      "id": 3
+    },
+    {
+      "blogTitle": "new fourth blog",
+      "blogContent": "its new fourth blog",
+      "blogCategory": "sports",
+      "id": 4,
+      "blogRating": 5,
+      "authorName": "chota amit "
+    },
+    {
+      "blogTitle": "its sixth blog",
+      "blogContent": "its sixth blog",
+      "authorName": "chatha amit",
+      "blogRating": 7,
+      "blogCategory": "computer science",
+      "id": 5
+    },
+    {
+      "blogTitle": "Its my first bblog",
+      "blogContent": "Its my first bblog",
+      "authorName": "naya wala amit",
+      "blogRating": 6,
+      "blogCategory": "Comic",
+      "id": 6
+    },
+    {
+      "blogTitle": "ITs 1st blog",
+      "blogContent": "ITs 1st blog",
+      "authorName": "amit khandellwal",
+      "blogRating": 6,
+      "blogCategory": "comic",
+      "id": 7
+    },
+    {
+      "blogTitle": "Its 2nd blog",
+      "blogContent": "Its 2nd blog",
+      "authorName": "amit k",
+      "blogRating": 9,
+      "blogCategory": "fiction",
+      "id": 8
+    },
+    {
+      "blogTitle": "new blog",
+      "blogContent": "itd new blog",
+      "authorName": "new amit",
+      "blogRating": 1,
+      "blogCategory": "sports",
+      "id": 9
+    },
+    {
+      "blogTitle": "wdfw",
+      "blogContent": "wefwedwfew",
+      "authorName": "dfv",
+      "blogRating": 1,
+      "blogCategory": "sports",
+      "id": 10
+    },
+    {
+      "blogTitle": "sd",
+      "blogContent": "sd",
+      "authorName": "sd",
+      "blogRating": 6,
+      "blogCategory": "sports",
+      "id": 11
+    }
+  ]
+}
